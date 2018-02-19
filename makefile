@@ -1,5 +1,5 @@
-cProject.exe: main.o big3.o  fact.o
-	gcc -o cProject.exe main.o big3.o fact.o 
+c-Project.exe: main.o big3.o  fact.o
+	gcc -o c-Project.exe main.o big3.o fact.o 
 
 main.o: main.c
 	gcc -c main.c
